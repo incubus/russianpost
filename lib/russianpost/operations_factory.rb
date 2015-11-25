@@ -38,7 +38,7 @@ module RussianPost
       end
 
       def process_fixnum(key, value)
-        if [:payment, :value, :mass_rate, :insr_rate, :air_rate, :rate, :mass, :max_mass_ru, :max_mass_en].include? key
+        if [:payment, :value, :mass_rate, :insr_rate, :air_rate, :rate, :mass, :max_mass_ru, :max_mass_en, :custom_duty].include? key
           value.to_i
         end
       end

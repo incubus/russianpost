@@ -14,6 +14,7 @@ module RussianPost
     :insr_rate,             # Fixnum
     :air_rate,              # Fixnum
     :rate,                  # Fixnum
+    :custom_duty,           # Fuxnum
 
     # item parameters
     :barcode,               # String

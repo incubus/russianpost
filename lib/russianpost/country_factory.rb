@@ -12,7 +12,7 @@ module RussianPost
         proxy.alpha2,
         proxy.alpha3,
         proxy.name,
-        proxy.english)
+        proxy.english) if proxy
     end
   end
 end
